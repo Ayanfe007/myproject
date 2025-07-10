@@ -1,0 +1,22 @@
+h1 , p{
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.23em;
+}
+h1 {
+    color: blue;
+    border-bottom: 1px solid blueviolet;
+}
+p {
+    min-height: 50px;
+    max-height: 60px;
+}
+p {
+    border: 3px outset greenyellow;
+}
+p {
+    padding: 10px;
+}
+p.two {
+    overflow: scroll;
+}
