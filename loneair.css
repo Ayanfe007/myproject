@@ -9,11 +9,22 @@ header, section, footer, aside, nav, article, figure, figcaption {
     font-family: Georgia, times, serif; 
     line-height: 1.4em; 
     margin: 0px;} 
-    .wrapper { 
-    width: 940px; 
-    margin: 20px auto 20px auto;  
-    background-color: #ffffff;
-overflow: auto;} 
+   .wrapper {
+  display: flex;
+  align-items: flex-start;  /* Keeps top alignment */
+  gap: 2rem;                /* Space between main and aside, optional */
+}
+
+.course {
+  flex: 2;                  /* Main section takes more space */
+  min-width: 0;             /* Prevents overflow */
+}
+
+aside {
+  flex: 1;                  /* Aside takes less space */
+  max-width: 300px;         /* Optional: controls width of aside */
+  min-width: 200px;         /* Optional: minimum width for aside */
+}
     header { 
     height: 160px; 
     background-image: url(falcon.jpg);} 
