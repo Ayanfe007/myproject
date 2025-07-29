@@ -1,0 +1,76 @@
+. {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f9f4;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #0a7733;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+nav ul li a:hover
+nav ul li a:active{
+    background-color: white;
+    color: #0a7733;
+}
+main{
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+.about-text{
+color: #0a7733;
+font-size: 32px;
+margin-bottom: 15px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
+    gap:20px
+}
+.image-grid figure{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #0a7733;
+}
+footer{
+    background-color: #0a7733;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px\;
+}
