@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign In </title>
+        <link href="signin.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form action="submit.php" method="post">
+            <!--form element should go-->
+        </form>
+        <fieldset>
+            <!--fieldset group relted to group-->
+            <legend> Personal info </legend>
+            <label>First Name </label>
+            <input type="text" id="firstname" name="firstname" required>
+            <label>Last Name </label>
+            <input type="text" id="lastname" name="lastname" required>
+            <label>Middle Name </label>
+            <input type="text" id="middlename" name="middlename" required>
+<label> Email </label>
+<input type="email" id="email" name="email">
+<label> Phone </label>
+<input type="tel" id="phone" name="phone">
+<label> Address </label>
+<input type="text" id="Address" name="address">
+<p> Gender </p>
+<label> 
+    <input type="radio" name="gender" value="male" class="gender" required>
+Male
+</label>
+<label>
+    <input type="radio" name="gender" value="female" class="gender" required>
+    Female
+</label>
+<label> Date of Birth</label>
+<input type="date" id="dob" name="dob"> <br>
+<input type="submit" value="Submit" class="submit">
+        </fieldset>
+    </body>
+</html>
